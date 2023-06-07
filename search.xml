@@ -20,9 +20,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/ds-xiaoyi/about/index.html"/>
-      <url>/ds-xiaoyi/about/index.html</url>
+      <title>分类</title>
+      <link href="/ds-xiaoyi/categories/index.html"/>
+      <url>/ds-xiaoyi/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -42,9 +42,9 @@
     
     
     <entry>
-      <title>视频</title>
-      <link href="/ds-xiaoyi/movies/index.html"/>
-      <url>/ds-xiaoyi/movies/index.html</url>
+      <title>列表</title>
+      <link href="/ds-xiaoyi/list/index.html"/>
+      <url>/ds-xiaoyi/list/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -53,9 +53,9 @@
     
     
     <entry>
-      <title>列表</title>
-      <link href="/ds-xiaoyi/list/index.html"/>
-      <url>/ds-xiaoyi/list/index.html</url>
+      <title>关于</title>
+      <link href="/ds-xiaoyi/about/index.html"/>
+      <url>/ds-xiaoyi/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -86,9 +86,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/ds-xiaoyi/categories/index.html"/>
-      <url>/ds-xiaoyi/categories/index.html</url>
+      <title>视频</title>
+      <link href="/ds-xiaoyi/movies/index.html"/>
+      <url>/ds-xiaoyi/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
