@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<h1 id="hexo网站搭建教程-2-创建新文章以及md语法教学"><a href="#hexo网站搭建教程-2-创建新文章以及md语法教学" class="headerlink" title="hexo网站搭建教程-2.创建新文章以及md语法教学"></a>hexo网站搭建教程-2.创建新文章以及md语法教学</h1><h2 id="1-创建新文章"><a href="#1-创建新文章" class="headerlink" title="1.创建新文章"></a>1.创建新文章</h2><p>在blog文件夹中右键打开GBH<br>输入：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;&quot;</span></span><br></pre></td></tr></table></figure><p>（””中填写文章标题）<br>回车创建文章<br>我们可以在&#x2F;blog&#x2F;source&#x2F;_post中找到这篇文章</p><h2 id="2-md语法教学"><a href="#2-md语法教学" class="headerlink" title="2.md语法教学"></a>2.md语法教学</h2><p>介绍：Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia、简书等。<br>(摘取自Markdown官网)</p><h3 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h3><p>要创建标题，需要在单词或短语前面添加井号 (#)，#的数量代表了标题的级别，井号越多，标题越小。<br><img src="https://s2.loli.net/2023/06/08/Wu6qTvgzADtsrod.png" alt="标题语法级别示例"></p><h3 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h3><p>要创建段落，需要用空白行将一行或多行文本进行分隔。<br><img src="https://s2.loli.net/2023/06/08/qsSuWdioHg4py6U.png" alt="段落语法示例"></p><h3 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h3><p>要加粗文本，请在单词或短语的前后各添加两个星号:**或两个下划线:__。<br>如果在单词或短语中间部分加粗的话，为考虑兼容问题，必须使用两个星号，下划线不可使用<br><img src="https://s2.loli.net/2023/06/08/OdQKWiC2ajge7xN.png" alt="强调语法示例"></p><h3 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h3><p>要创建块引用，请在段落前添加一个 &gt; 符号。<br>“&gt;”可以嵌套使用，需要在嵌套块前面加”&gt;&gt;”<br><img src="https://s2.loli.net/2023/06/08/OdQKWiC2ajge7xN.png" alt="引用语法示例"></p><h3 id="代码语法"><a href="#代码语法" class="headerlink" title="代码语法"></a>代码语法</h3><p>要将单词或短语表示为代码，请将其包裹在反引号 (&#96;) 中。<br>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号(&#96;&#96;)中。<br><img src="https://s2.loli.net/2023/06/08/fwOnjkXaCWBqloG.png" alt="代码语法示例"></p><h3 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a>链接语法</h3><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。<br>超链接Markdown语法代码：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">超链接显示名</span>](<span class="link">超链接地址</span>)</span><br></pre></td></tr></table></figure><p>对应的HTML代码：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;超链接地址&quot;</span> <span class="attr">title</span>=<span class="string">&quot;超链接title&quot;</span>&gt;</span>超链接显示名<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2023/06/08/QXzIxubcTmgaZYi.png" alt="链接语法示例"></p><h3 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h3><p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。<br>插入图片Markdown语法代码：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片alt</span>](<span class="link">图片链接 &quot;图片title&quot;</span>)</span><br></pre></td></tr></table></figure><p>对应的HTML代码：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;图片链接&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;图片alt&quot;</span> <span class="attr">title</span>=<span class="string">&quot;图片title&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>这里是做博客用到的基本md语法，您也可以访问markdown官网来学习更多语法：<br><a href="https://markdown.com.cn/">Markdown官网</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,6 +36,18 @@
         <content type="html"><![CDATA[<h1 id="hexo网站搭建教程-1-本地搭建"><a href="#hexo网站搭建教程-1-本地搭建" class="headerlink" title="hexo网站搭建教程-1.本地搭建"></a>hexo网站搭建教程-1.本地搭建</h1><h2 id="1-安装git"><a href="#1-安装git" class="headerlink" title="1.安装git"></a>1.安装git</h2><p>打开<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>点击Download for Windows<br>下载完打开exe程序，无脑下一步即可<br>安装完后，桌面右键-显示更多选项，出现Git Gui Here和Git Bash Here算安装成功<br><img src="https://s2.loli.net/2023/06/08/JZ7pTCSfG3PFMrs.png" alt="git安装成功"><br>在安装hexo时只用Git Bash Here</p><h2 id="2-安装Node-js"><a href="#2-安装Node-js" class="headerlink" title="2.安装Node.js"></a>2.安装Node.js</h2><p>打开<a href="https://nodejs.org/zh-cn">https://nodejs.org/zh-cn</a><br>点击下载左边的长期维护版<br>安装同样无脑下一步<br>安装完成后win+R打开cmd窗口<br>运行：<br><code> node -v</code><br>出现版本号代表安装成功<br><img src="https://s2.loli.net/2023/06/08/QpnjYDtEwNBslkA.png" alt="Node.js安装成功"></p><h2 id="3-安装hexo"><a href="#3-安装hexo" class="headerlink" title="3.安装hexo"></a>3.安装hexo</h2><p>在合适的地方创建文件夹<br>在文件夹根目录右键选择Git Bash Here<br>在GBH中逐条运行以下指令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>(skip:git中不可使用Ctrl+C和Ctrl+V)<br>或者可以访问hexo官网：<a href="https://hexo.io/zh-cn/index.html">https://hexo.io/zh-cn/index.html</a><br>随后便可看到本地版的个人博客地址：<a href="http://localhost:4000/">http://localhost:4000/</a><br>复制并在浏览器中打开<br>如果出现便代表本地博客安装成功<br><img src="https://s2.loli.net/2023/06/08/ONagtZPR2GqFWMm.png" alt="本地博客安装成功"></p>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
       
     </entry>
     
@@ -115,6 +139,17 @@
       <title>视频</title>
       <link href="/ds-xiaoyi/movies/index.html"/>
       <url>/ds-xiaoyi/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/ds-xiaoyi/tags/hexo/index.html"/>
+      <url>/ds-xiaoyi/tags/hexo/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
