@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>hexo网站搭建教程-3.butterfly的主题相关设置</title>
+      <link href="/ds-xiaoyi/2023/06/08/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-3/"/>
+      <url>/ds-xiaoyi/2023/06/08/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2-3/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-下载butterfly主题"><a href="#1-下载butterfly主题" class="headerlink" title="1.下载butterfly主题"></a>1.下载butterfly主题</h1><h2 id="方法一-在-x2F-blog中右键打开GBH"><a href="#方法一-在-x2F-blog中右键打开GBH" class="headerlink" title="方法一:在&#x2F;blog中右键打开GBH"></a>方法一:在&#x2F;blog中右键打开GBH</h2><p>运行:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure><h2 id="方法二-在-x2F-blog中右键打开GBH"><a href="#方法二-在-x2F-blog中右键打开GBH" class="headerlink" title="方法二:在&#x2F;blog中右键打开GBH"></a>方法二:在&#x2F;blog中右键打开GBH</h2><p>运行:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-theme-butterfly</span><br></pre></td></tr></table></figure><h2 id="方法三"><a href="#方法三" class="headerlink" title="方法三:"></a>方法三:</h2><p>国内用户由于github访问速度慢无法下载，会报错，若前两种方法都无效请使用第三种方法<br>打开此链接:<br><a href="https://dsxiaoyi.lanzout.com/iSti40yzzd8b">butterfly主题蓝奏云下载链接</a><br>(密码：114514)<br>下载完成后解压，将文件夹重命名为Butterfly<br>将文件夹剪切到&#x2F;blog&#x2F;themes里</p><h2 id="安装pug以及stylus的渲染器"><a href="#安装pug以及stylus的渲染器" class="headerlink" title="安装pug以及stylus的渲染器"></a>安装pug以及stylus的渲染器</h2><p>如果你没有pug以及stylus的渲染器,请下载安装:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo网站搭建教程-1.本地搭建</title>
       <link href="/ds-xiaoyi/2023/06/08/hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/"/>
       <url>/ds-xiaoyi/2023/06/08/hexo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99/</url>
@@ -82,11 +107,44 @@
     
     
     <entry>
+      <title>图库</title>
+      <link href="/ds-xiaoyi/Gallery/index.html"/>
+      <url>/ds-xiaoyi/Gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>一些好看的壁纸</p>  <a href='/ds-xiaoyi/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2023/06/11/mXPbKYFxwJyRc6r.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">csgo</div>  <p>一些关于csgo的图片</p>  <a href='/ds-xiaoyi/Gallery/csgo'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/ds-xiaoyi/categories/index.html"/>
       <url>/ds-xiaoyi/categories/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\ds-xiaoyi\assets\css\APlayer.min.css"><script src="\ds-xiaoyi\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/ds-xiaoyi/about/index.html"/>
+      <url>/ds-xiaoyi/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="此网站为小刈的个人博客"><a href="#此网站为小刈的个人博客" class="headerlink" title="此网站为小刈的个人博客"></a>此网站为小刈的个人博客</h2><h2 id="邮箱-100-x73-x5f-x78-105-97-x6f-x79-x69-x40-49-x32-x36-x2e-x63-111-x6d"><a href="#邮箱-100-x73-x5f-x78-105-97-x6f-x79-x69-x40-49-x32-x36-x2e-x63-111-x6d" class="headerlink" title="邮箱: &#100;&#x73;&#x5f;&#x78;&#105;&#97;&#x6f;&#x79;&#x69;&#x40;&#49;&#x32;&#x36;&#x2e;&#x63;&#111;&#x6d;"></a>邮箱: <a href="mailto:&#100;&#x73;&#x5f;&#x78;&#105;&#97;&#x6f;&#x79;&#x69;&#x40;&#49;&#x32;&#x36;&#x2e;&#x63;&#111;&#x6d;">&#100;&#x73;&#x5f;&#x78;&#105;&#97;&#x6f;&#x79;&#x69;&#x40;&#49;&#x32;&#x36;&#x2e;&#x63;&#111;&#x6d;</a></h2><h2 id="QQ-2492571754"><a href="#QQ-2492571754" class="headerlink" title="QQ: 2492571754"></a>QQ: 2492571754</h2><h2 id="微信-15585559258"><a href="#微信-15585559258" class="headerlink" title="微信:15585559258"></a>微信:15585559258</h2><h2 id="如有侵权行为请立即与我联系"><a href="#如有侵权行为请立即与我联系" class="headerlink" title="如有侵权行为请立即与我联系"></a>如有侵权行为请立即与我联系</h2>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/ds-xiaoyi/message/index.html"/>
+      <url>/ds-xiaoyi/message/index.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="这里是小刈的留言板"><a href="#这里是小刈的留言板" class="headerlink" title="这里是小刈的留言板"></a>这里是小刈的留言板</h1><h1 id="有什么想说的？"><a href="#有什么想说的？" class="headerlink" title="有什么想说的？"></a>有什么想说的？</h1><h1 id="有什么想问的"><a href="#有什么想问的" class="headerlink" title="有什么想问的"></a>有什么想问的</h1><h1 id="都可以在这里畅所欲言"><a href="#都可以在这里畅所欲言" class="headerlink" title="都可以在这里畅所欲言"></a>都可以在这里畅所欲言</h1>]]></content>
       
     </entry>
     
@@ -115,39 +173,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/ds-xiaoyi/about/index.html"/>
-      <url>/ds-xiaoyi/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="此网站为小刈的个人博客"><a href="#此网站为小刈的个人博客" class="headerlink" title="此网站为小刈的个人博客"></a>此网站为小刈的个人博客</h2><h2 id="邮箱-x64-115-x5f-120-x69-x61-x6f-x79-105-x40-x31-x32-x36-x2e-99-111-x6d"><a href="#邮箱-x64-115-x5f-120-x69-x61-x6f-x79-105-x40-x31-x32-x36-x2e-99-111-x6d" class="headerlink" title="邮箱: &#x64;&#115;&#x5f;&#120;&#x69;&#x61;&#x6f;&#x79;&#105;&#x40;&#x31;&#x32;&#x36;&#x2e;&#99;&#111;&#x6d;"></a>邮箱: <a href="mailto:&#x64;&#115;&#x5f;&#120;&#x69;&#x61;&#x6f;&#x79;&#105;&#x40;&#x31;&#x32;&#x36;&#x2e;&#99;&#111;&#x6d;">&#x64;&#115;&#x5f;&#120;&#x69;&#x61;&#x6f;&#x79;&#105;&#x40;&#x31;&#x32;&#x36;&#x2e;&#99;&#111;&#x6d;</a></h2><h2 id="QQ-2492571754"><a href="#QQ-2492571754" class="headerlink" title="QQ: 2492571754"></a>QQ: 2492571754</h2><h2 id="微信-15585559258"><a href="#微信-15585559258" class="headerlink" title="微信:15585559258"></a>微信:15585559258</h2><h2 id="如有侵权行为请立即与我联系"><a href="#如有侵权行为请立即与我联系" class="headerlink" title="如有侵权行为请立即与我联系"></a>如有侵权行为请立即与我联系</h2>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/ds-xiaoyi/music/index.html"/>
-      <url>/ds-xiaoyi/music/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">    <link rel="stylesheet" href="style.css">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"></head><body>    <div id="main" class="container">     <div class="row my-card justify-content-center">            <div class="col-lg-4 photo-bg"></div>            <div class="col-lg-8 card">                  <div id="aplayer" class="aplayer" data-order="random" data-id="867465661" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>    <!-- aplayer -->    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><pre><code>&lt;!-- end_aplayer --&gt;</code></pre><script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script><script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script><script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script><script>        //弹出一个页面层        $('#kaygb-blog').on('click', function() {            layer.open({                type: 2,                title: 'Kaygb',                shadeClose: true,                shade: false,                maxmin: true, //开启最大化最小化按钮                area: ['80%', '100%'],                content: '//eas1.cn/'            });        });        $('#kaygb-mail').on('click', function() {            layer.open({                type: 2,                title: 'Mail',                shadeClose: true,                shade: false,                maxmin: true, //开启最大化最小化按钮                area: ['80%', '100%'],]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/ds-xiaoyi/tags/index.html"/>
-      <url>/ds-xiaoyi/tags/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\ds-xiaoyi\assets\css\APlayer.min.css"><script src="\ds-xiaoyi\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>视频</title>
       <link href="/ds-xiaoyi/movies/index.html"/>
       <url>/ds-xiaoyi/movies/index.html</url>
@@ -159,9 +184,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/ds-xiaoyi/tags/hexo/index.html"/>
-      <url>/ds-xiaoyi/tags/hexo/index.html</url>
+      <title>标签</title>
+      <link href="/ds-xiaoyi/tags/index.html"/>
+      <url>/ds-xiaoyi/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -170,22 +195,22 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/ds-xiaoyi/message/index.html"/>
-      <url>/ds-xiaoyi/message/index.html</url>
+      <title>音乐</title>
+      <link href="/ds-xiaoyi/music/index.html"/>
+      <url>/ds-xiaoyi/music/index.html</url>
       
-        <content type="html"><![CDATA[<h1 id="这里是小刈的留言板"><a href="#这里是小刈的留言板" class="headerlink" title="这里是小刈的留言板"></a>这里是小刈的留言板</h1><h1 id="有什么想说的？"><a href="#有什么想说的？" class="headerlink" title="有什么想说的？"></a>有什么想说的？</h1><h1 id="有什么想问的"><a href="#有什么想问的" class="headerlink" title="有什么想问的"></a>有什么想问的</h1><h1 id="都可以在这里畅所欲言"><a href="#都可以在这里畅所欲言" class="headerlink" title="都可以在这里畅所欲言"></a>都可以在这里畅所欲言</h1>]]></content>
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>喜欢的歌曲</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-mXCFuKQz" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="867465661" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>图库</title>
-      <link href="/ds-xiaoyi/Gallery/index.html"/>
-      <url>/ds-xiaoyi/Gallery/index.html</url>
+      <title>csgo图片</title>
+      <link href="/ds-xiaoyi/Gallery/csgo/index.html"/>
+      <url>/ds-xiaoyi/Gallery/csgo/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>一些好看的壁纸</p>  <a href='/ds-xiaoyi/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2023/06/11/mXPbKYFxwJyRc6r.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">csgo</div>  <p>一些关于csgo的图片</p>  <a href='/ds-xiaoyi/Gallery/csgo'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"1.png","alt":""},{"url":"2.png","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
       
     </entry>
     
@@ -203,11 +228,11 @@
     
     
     <entry>
-      <title>csgo图片</title>
-      <link href="/ds-xiaoyi/Gallery/csgo/index.html"/>
-      <url>/ds-xiaoyi/Gallery/csgo/index.html</url>
+      <title></title>
+      <link href="/ds-xiaoyi/tags/hexo/index.html"/>
+      <url>/ds-xiaoyi/tags/hexo/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"1.png","alt":""},{"url":"2.png","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
