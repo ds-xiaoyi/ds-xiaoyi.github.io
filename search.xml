@@ -199,7 +199,7 @@
       <link href="/ds-xiaoyi/music/index.html"/>
       <url>/ds-xiaoyi/music/index.html</url>
       
-        <content type="html"><![CDATA[<script>console.error("SyntaxError: Unexpected token 【 in JSON at position 6");</script>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-VLZGlpnt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="523845661" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
