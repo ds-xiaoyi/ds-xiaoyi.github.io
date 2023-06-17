@@ -199,7 +199,7 @@
       <link href="/ds-xiaoyi/music/index.html"/>
       <url>/ds-xiaoyi/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-VLZGlpnt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="523845661" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>​<meting-js     server="netease"     type="playlist"     id="496869422"    fixed="true"     mini="true"    order="random"    loop="all"    preload="auto"    list-folded="false"></meting-js>]]></content>
       
     </entry>
     
