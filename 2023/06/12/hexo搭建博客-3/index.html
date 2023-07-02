@@ -244,26 +244,35 @@ if ('Valine' === 'Valine' || !false) {
   function loadOtherComment () {
     loadValine()
   }
-}</script></div><div class="aplayer no-destroy" data-id="867465661" data-server="netease" data-type="playlist" data-mini="true" data-autoplay="true" data-lrcType="-1"> </div><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=210 src="//music.163.com/outchain/player?type=0&id=867465661&auto=1&height=430"></iframe><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="66" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="//code.tidio.co/oufa5nlh0dwicoalvshnzre3iw2t6guw.js" async="async"></script><script>function onTidioChatApiReady() {
-  window.tidioChatApi.hide();
-  window.tidioChatApi.on("close", function() {
-    window.tidioChatApi.hide();
-  });
-}
-if (window.tidioChatApi) {
-  window.tidioChatApi.on("ready", onTidioChatApiReady);
-} else {
-  document.addEventListener("tidioChat-ready", onTidioChatApiReady);
-}
+}</script></div><div class="aplayer no-destroy" data-id="867465661" data-server="netease" data-type="playlist" data-mini="true" data-autoplay="true" data-lrcType="-1"> </div><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=210 src="//music.163.com/outchain/player?type=0&id=867465661&auto=1&height=430"></iframe><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="66" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script>(function(d, w, c) {
+    w.ChatraID = 'uRfjictftk2Bncjd8';
+    var s = d.createElement('script');
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+    };
+    s.async = true;
+    s.src = 'https://call.chatra.io/chatra.js';
+    if (d.head) d.head.appendChild(s);
+})(document, window, 'Chatra');
 
-var chatBtnFn = () => {
-  document.getElementById("chat_btn").addEventListener("click", function(){
-    window.tidioChatApi.show();
-    window.tidioChatApi.open();
-  });
-}
-chatBtnFn()
-</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+if (true) {
+  var chatBtnFn = () => {
+    var chatBtn = document.getElementById("chat_btn")
+    chatBtn.addEventListener("click", function(){
+      Chatra('openChat')
+    });
+  }
+  chatBtnFn()
+} else {
+  if (false) {
+    function chatBtnHide () {
+      Chatra('hide')
+    }
+    function chatBtnShow () {
+      Chatra('show')
+    }
+  }
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
 var pjax = new Pjax({
   elements: 'a:not([target="_blank"])',
